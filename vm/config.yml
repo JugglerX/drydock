@@ -8,8 +8,8 @@ vagrant_gui: false
 
 # If you need to run multiple instances of Drupal VM, set a unique hostname,
 # machine name, and IP address for each instance.
-vagrant_hostname: smbtwo.dev
-vagrant_machine_name: smbtwo.dev
+vagrant_hostname: drydock.dev
+vagrant_machine_name: drydock.dev
 vagrant_ip: 192.168.88.136
 
 # Allow Drupal VM to be accessed via a public network interface on your host.
@@ -24,7 +24,7 @@ vagrant_synced_folders:
   # The first synced folder will be used for the default Drupal installation, if
   # any of the build_* settings are 'true'. By default the folder is set to
   # the drupal-vm folder.
-  - local_path: ~/work/web/smb-two
+  - local_path: ~/work/web/drydock
     destination: /var/www/drupalvm
     type: nfs
     create: true
@@ -196,7 +196,7 @@ postgresql_users:
 installed_extras:
   # - adminer
   # - blackfire
-  # - drupalconsole
+  - drupalconsole
   - drush
   # - elasticsearch
   # - java
@@ -211,7 +211,7 @@ installed_extras:
   # - solr
   # - tideways
   # - upload-progress
-  # - varnish
+  - varnish
   - xdebug
   # - xhprof
 
