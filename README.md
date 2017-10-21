@@ -1,12 +1,14 @@
-# Drupal 8 / DrupalVM / Pantheon / Composer
+# Drydock Drupal 8 Base Theme
 
-### Local Prerequisites
+# Install with DrupalVM
+
+## Local Prerequisites
 
 * Install Composer Globally https://getcomposer.org/doc/00-intro.md#globally
 * Install Vagrant https://www.vagrantup.com/downloads.html
 * Install Virtual Box https://www.virtualbox.org/wiki/Downloads
 
-# Install
+## Install
 
 Download this repo to your local machine. Extract the zip file and rename the folder to your project name.
 
