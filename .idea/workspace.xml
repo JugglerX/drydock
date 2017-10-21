@@ -1,7 +1,358 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fee1ebe1-5a23-4a1d-addc-923ca533701c" name="Default" comment="" />
+    <list default="true" id="fee1ebe1-5a23-4a1d-addc-923ca533701c" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/automated_cron.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/block.block.certifications_homepage.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/block.block.content.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/block.block.content_front.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/block.block.figurit_hero_basic.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/block.block.figurit_hero_service.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/block.block.getintouch.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/block.block.hamburger.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/block.block.help.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/block.block.hero_homepage.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/block.block.mainnavigation.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/block.block.makeanenquiry.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/block.block.messages.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/block.block.offices.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/block.block.offices_bottom.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/block.block.offices_top.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/block.block.primaryadminactions.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/block.block.services_grid.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/block.block.services_homepage.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/block.block.servicesmenu.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/block.block.seven_breadcrumbs.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/block.block.seven_content.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/block.block.seven_help.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/block.block.seven_local_actions.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/block.block.seven_login.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/block.block.seven_messages.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/block.block.seven_page_title.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/block.block.seven_primary_local_tasks.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/block.block.seven_secondary_local_tasks.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/block.block.sitebranding.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/block.block.socialmedialinks.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/block.block.tabs.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/block.block.team_grid.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/block.block.testimonials_grid.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/block.block.tools.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/block.block.work_grid.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/block_content.type.basic.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/block_content.type.button.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/block_content.type.homepage_hero.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/block_content.type.section.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/comment.type.comment.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/contact.form.enquiry.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/contact.form.personal.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/contact.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.base_field_override.node.certification.promote.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.base_field_override.node.certification.status.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.base_field_override.node.office.promote.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.base_field_override.node.page.promote.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.base_field_override.node.service.promote.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.base_field_override.node.team.promote.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.base_field_override.node.team.status.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.base_field_override.node.testimonial.promote.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.base_field_override.node.testimonial.status.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.base_field_override.node.work.promote.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.base_field_override.node.work.status.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.date_format.fallback.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.date_format.html_date.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.date_format.html_datetime.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.date_format.html_month.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.date_format.html_time.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.date_format.html_week.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.date_format.html_year.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.date_format.html_yearless_date.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.date_format.long.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.date_format.medium.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.date_format.short.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_form_display.block_content.basic.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_form_display.block_content.button.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_form_display.block_content.homepage_hero.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_form_display.block_content.section.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_form_display.comment.comment.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_form_display.contact_message.enquiry.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_form_display.node.article.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_form_display.node.certification.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_form_display.node.office.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_form_display.node.page.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_form_display.node.service.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_form_display.node.team.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_form_display.node.testimonial.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_form_display.node.work.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_form_display.user.user.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_form_mode.user.register.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_display.block_content.basic.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_display.block_content.button.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_display.block_content.homepage_hero.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_display.block_content.section.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_display.comment.comment.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_display.contact_message.enquiry.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_display.node.article.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_display.node.article.rss.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_display.node.article.teaser.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_display.node.certification.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_display.node.certification.full.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_display.node.certification.teaser.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_display.node.office.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_display.node.office.full.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_display.node.office.teaser.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_display.node.page.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_display.node.page.full.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_display.node.page.hero.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_display.node.page.teaser.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_display.node.service.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_display.node.service.full.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_display.node.service.hero.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_display.node.service.teaser.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_display.node.team.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_display.node.team.full.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_display.node.team.teaser.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_display.node.testimonial.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_display.node.testimonial.full.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_display.node.testimonial.teaser.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_display.node.work.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_display.node.work.teaser.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_display.user.user.compact.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_display.user.user.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_mode.block.token.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_mode.block_content.full.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_mode.block_content.token.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_mode.comment.full.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_mode.comment.token.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_mode.file.token.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_mode.menu_link_content.token.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_mode.node.full.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_mode.node.hero.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_mode.node.revision.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_mode.node.rss.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_mode.node.search_index.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_mode.node.search_result.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_mode.node.teaser.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_mode.node.token.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_mode.shortcut.token.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_mode.taxonomy_term.full.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_mode.taxonomy_term.token.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_mode.user.compact.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_mode.user.full.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.entity_view_mode.user.token.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.extension.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/core.menu.static_menu_link_overrides.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/dblog.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/ds.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/ds_extras.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/editor.editor.basic_html.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/editor.editor.full_html.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/exclude_node_title.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.block_content.basic.body.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.block_content.button.body.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.block_content.button.field_link.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.block_content.homepage_hero.body.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.block_content.homepage_hero.field_hero_heading.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.block_content.homepage_hero.field_hero_subheading.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.block_content.homepage_hero.field_image_hero_homepage.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.block_content.section.body.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.block_content.section.field_hero_heading.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.block_content.section.field_hero_subheading.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.block_content.section.field_image_hero_homepage.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.block_content.section.field_link.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.comment.comment.comment_body.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.contact_message.enquiry.field_bookkeeping_software.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.contact_message.enquiry.field_business_name.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.contact_message.enquiry.field_business_size.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.contact_message.enquiry.field_contact_phone.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.contact_message.enquiry.field_services_needed.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.node.article.body.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.node.article.comment.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.node.article.field_image.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.node.article.field_tags.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.node.certification.body.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.node.certification.field_certification_image.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.node.office.body.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.node.office.field_address.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.node.office.field_email.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.node.office.field_phone.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.node.page.body.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.node.page.field_hero.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.node.page.field_hero_heading.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.node.page.field_hero_subheading.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.node.page.field_image.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.node.service.body.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.node.service.field_entity_reference.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.node.service.field_hero.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.node.service.field_hero_heading.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.node.service.field_hero_subheading.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.node.service.field_icon.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.node.team.body.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.node.team.field_image.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.node.testimonial.body.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.node.testimonial.field_image.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.node.testimonial.field_testimonial_link.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.node.testimonial.field_testimonial_name.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.node.work.body.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.node.work.field_image.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.field.user.user.user_picture.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.storage.block_content.body.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.storage.block_content.field_hero_heading.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.storage.block_content.field_hero_subheading.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.storage.block_content.field_image_hero_homepage.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.storage.block_content.field_link.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.storage.comment.comment_body.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.storage.contact_message.field_bookkeeping_software.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.storage.contact_message.field_business_name.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.storage.contact_message.field_business_size.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.storage.contact_message.field_contact_phone.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.storage.contact_message.field_services_needed.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.storage.node.body.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.storage.node.comment.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.storage.node.field_address.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.storage.node.field_certification_image.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.storage.node.field_email.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.storage.node.field_entity_reference.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.storage.node.field_hero.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.storage.node.field_hero_heading.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.storage.node.field_hero_subheading.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.storage.node.field_icon.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.storage.node.field_image.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.storage.node.field_phone.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.storage.node.field_tags.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.storage.node.field_testimonial_link.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.storage.node.field_testimonial_name.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field.storage.user.user_picture.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/field_ui.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/figurit.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/file.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/filter.format.basic_html.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/filter.format.full_html.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/filter.format.plain_text.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/filter.format.restricted_html.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/filter.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/image.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/image.style.hero.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/image.style.hero_blend.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/image.style.hero_preview.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/image.style.icon.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/image.style.l.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/image.style.large.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/image.style.medium.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/image.style.thumbnail.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/image_effects.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/mailsystem.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/menu_ui.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/metatag.metatag_defaults.403.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/metatag.metatag_defaults.404.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/metatag.metatag_defaults.front.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/metatag.metatag_defaults.global.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/metatag.metatag_defaults.node.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/metatag.metatag_defaults.taxonomy_term.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/metatag.metatag_defaults.user.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/node.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/node.type.article.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/node.type.certification.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/node.type.office.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/node.type.page.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/node.type.service.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/node.type.team.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/node.type.testimonial.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/node.type.work.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/pathauto.pattern.basic_page_pattern.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/pathauto.pattern.contact_pattern.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/pathauto.pattern.service_pattern.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/pathauto.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/rdf.mapping.comment.comment.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/rdf.mapping.node.article.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/rdf.mapping.node.page.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/rdf.mapping.taxonomy_term.tags.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/rdf.mapping.user.user.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/redirect.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/search.page.node_search.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/search.page.user_search.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/search.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/sendgrid_integration.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/seven.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/shortcut.set.default.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/system.action.comment_delete_action.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/system.action.comment_publish_action.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/system.action.comment_save_action.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/system.action.comment_unpublish_action.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/system.action.node_delete_action.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/system.action.node_make_sticky_action.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/system.action.node_make_unsticky_action.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/system.action.node_promote_action.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/system.action.node_publish_action.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/system.action.node_save_action.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/system.action.node_unpromote_action.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/system.action.node_unpublish_action.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/system.action.pathauto_update_alias_node.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/system.action.pathauto_update_alias_user.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/system.action.redirect_delete_action.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/system.action.user_add_role_action.administrator.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/system.action.user_add_role_action.publisher.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/system.action.user_block_user_action.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/system.action.user_cancel_user_action.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/system.action.user_remove_role_action.administrator.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/system.action.user_remove_role_action.publisher.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/system.action.user_unblock_user_action.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/system.authorize.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/system.cron.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/system.date.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/system.diff.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/system.file.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/system.image.gd.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/system.image.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/system.logging.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/system.mail.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/system.maintenance.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/system.menu.account.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/system.menu.admin.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/system.menu.footer.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/system.menu.main.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/system.menu.services-menu.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/system.menu.tools.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/system.performance.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/system.rss.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/system.site.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/system.theme.global.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/system.theme.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/taxonomy.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/taxonomy.vocabulary.tags.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/text.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/update.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/user.flood.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/user.mail.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/user.role.administrator.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/user.role.anonymous.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/user.role.authenticated.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/user.role.publisher.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/user.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/views.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/views.view.archive.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/views.view.block_content.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/views.view.certifications.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/views.view.comment.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/views.view.comments_recent.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/views.view.content.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/views.view.content_recent.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/views.view.files.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/views.view.frontpage.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/views.view.glossary.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/views.view.offices.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/views.view.redirect.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/views.view.services.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/views.view.taxonomy_term.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/views.view.team.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/views.view.testimonials.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/views.view.user_admin_people.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/views.view.watchdog.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/views.view.who_s_new.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/views.view.who_s_online.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal/web/sites/default/config/views.view.work.yml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +368,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="INSTALL.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="INSTALL.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/INSTALL.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -26,6 +377,16 @@
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -80,12 +441,11 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/drupal" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/drupal/web/themes/custom/figurit/scss/base/_field-node-title.scss" />
         <option value="$PROJECT_DIR$/drupal/web/themes/custom/figurit/templates/ds/ds.html.twig" />
         <option value="$PROJECT_DIR$/drupal/web/themes/custom/figurit/templates/html.html.twig" />
         <option value="$PROJECT_DIR$/drupal/web/themes/custom/figurit/figurit.theme" />
@@ -136,6 +496,7 @@
         <option value="$PROJECT_DIR$/drupal/web/themes/custom/drydock/package.json" />
         <option value="$PROJECT_DIR$/drupal/web/themes/custom/figurit/package.json" />
         <option value="$PROJECT_DIR$/drupal/web/themes/custom/drydock/drydock.info.yml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -188,6 +549,11 @@
             <path>
               <item name="drydock" type="b2602c69:ProjectViewProjectNode" />
               <item name="drydock" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="drydock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drydock" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="drupal" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -287,18 +653,17 @@
       <workItem from="1508297536155" duration="60000" />
       <workItem from="1508297598888" duration="39000" />
       <workItem from="1508297656467" duration="38834000" />
-      <workItem from="1508581477981" duration="195000" />
+      <workItem from="1508581477981" duration="456000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55492000" />
+    <option name="totallyTimeSpent" value="55753000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25965664" sideWeight="0.5206287" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25965664" sideWeight="0.5206287" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -341,12 +706,16 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.gitignore" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/vm/drupal" />
+      <path value="$PROJECT_DIR$/drupal" />
     </ignored-roots>
   </component>
   <component name="XDebuggerManager">
@@ -356,7 +725,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/drupal/web/themes/custom/figurit/scss/foundation/util/_unit.scss" />
     <entry file="file://$PROJECT_DIR$/drupal/web/themes/custom/figurit/scss/foundation/util/_breakpoint.scss" />
     <entry file="file://$PROJECT_DIR$/drupal/web/themes/custom/figurit/scss/base/_type.scss" />
     <entry file="file://$PROJECT_DIR$/drupal/web/themes/custom/figurit/scss/foundation/_settings.scss" />
@@ -483,6 +851,14 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>

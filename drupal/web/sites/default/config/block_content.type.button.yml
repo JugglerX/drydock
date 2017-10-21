@@ -1,8 +1,0 @@
-uuid: 62cb5d7c-e262-430f-8e19-4c5cfcaab9b4
-langcode: en
-status: true
-dependencies: {  }
-id: button
-label: Button
-revision: 0
-description: ''
