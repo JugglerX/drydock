@@ -1,0 +1,30 @@
+uuid: d33c61cf-fe97-4fff-8550-d96d5f9422b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.offices
+  module:
+    - system
+    - views
+  theme:
+    - figurit
+id: offices
+theme: figurit
+region: content
+weight: -5
+provider: null
+plugin: 'views_block:offices-bottom'
+settings:
+  id: 'views_block:offices-bottom'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /contact-us
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,24 @@
+uuid: 142783ca-ddd6-4df6-a8e0-c900720999fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.offices
+  module:
+    - views
+  theme:
+    - figurit
+id: offices_bottom
+theme: figurit
+region: bottom
+weight: 0
+provider: null
+plugin: 'views_block:offices-bottom'
+settings:
+  id: 'views_block:offices-bottom'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

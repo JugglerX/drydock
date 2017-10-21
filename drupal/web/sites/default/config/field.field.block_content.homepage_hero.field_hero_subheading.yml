@@ -1,0 +1,21 @@
+uuid: 8848bfd0-0af1-41c2-a0da-b9a15555aa00
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.homepage_hero
+    - field.storage.block_content.field_hero_subheading
+  module:
+    - text
+id: block_content.homepage_hero.field_hero_subheading
+field_name: field_hero_subheading
+entity_type: block_content
+bundle: homepage_hero
+label: 'Hero Subheading'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

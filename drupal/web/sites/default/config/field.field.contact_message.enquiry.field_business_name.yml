@@ -1,0 +1,19 @@
+uuid: c4e8faed-8d37-44da-ad84-60d761813169
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.enquiry
+    - field.storage.contact_message.field_business_name
+id: contact_message.enquiry.field_business_name
+field_name: field_business_name
+entity_type: contact_message
+bundle: enquiry
+label: 'Business Name'
+description: 'What is the name of your business/company?'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

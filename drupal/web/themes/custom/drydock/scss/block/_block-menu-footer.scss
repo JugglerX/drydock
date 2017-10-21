@@ -1,0 +1,38 @@
+.block-id-footer {
+  margin-bottom: 10px;
+  @include grid-column(3);
+  @include breakpoint(medium only) {
+    @include grid-column(4);
+  }
+  @include breakpoint(small only) {
+    @include grid-column(12);
+  }
+  ul.menu {
+    @include clearfix;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    border-bottom: 0;
+    font-family: $base-font;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    li {
+      display: block;
+      text-decoration: none;
+      a {
+        display: block;
+        text-decoration: none;
+        color: $primary-color;
+        &:hover {
+          text-decoration: underline;
+          color: $primary-color;
+        }
+        &.active {
+          text-decoration: underline;
+          color: $primary-color;
+        }
+      }
+    }
+  }
+}

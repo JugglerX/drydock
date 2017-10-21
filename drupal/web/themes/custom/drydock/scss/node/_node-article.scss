@@ -1,0 +1,44 @@
+.node-article.node-teaser {
+  @include clearfix;
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border: 1px solid #EAEAEA;
+  .field-name-node-title {
+  }
+  .field-name-field-image {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .field-name-body {
+    margin-bottom: 0;
+    p {
+      margin-top: 0;
+      margin-bottom: 0;
+      color: #666666;
+      font-family: $base-font;
+      font-size: 15px;
+      font-weight: 400;
+      font-style: normal;
+      line-height: 20px;
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  // Display Suite: 2 Row
+  &.ds-2row {
+    .group-firstrow {
+      height: 180px;
+      overflow: hidden;
+    }
+    .group-secondrow {
+      padding: 20px;
+    }
+  }
+}
+
+

@@ -1,0 +1,31 @@
+uuid: e65dcd10-5684-42c1-8970-b0cf91f27986
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:section:7603e9d6-cef5-4dea-a84d-d2e1638245da'
+  module:
+    - block_content
+    - system
+  theme:
+    - figurit
+id: getintouch
+theme: figurit
+region: canyon
+weight: -12
+provider: null
+plugin: 'block_content:7603e9d6-cef5-4dea-a84d-d2e1638245da'
+settings:
+  id: 'block_content:7603e9d6-cef5-4dea-a84d-d2e1638245da'
+  label: 'Get In Touch'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

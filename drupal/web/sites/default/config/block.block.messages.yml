@@ -1,0 +1,20 @@
+uuid: 0d11fd21-0110-409f-b758-cbae1bb75b32
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - figurit
+id: messages
+theme: figurit
+region: content
+weight: -12
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  provider: system
+  label_display: '0'
+visibility: {  }

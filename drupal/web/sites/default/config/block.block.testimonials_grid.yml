@@ -1,0 +1,30 @@
+uuid: e8d1e2f7-877f-4a12-ab5d-a59bc94bddca
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.testimonials
+  module:
+    - system
+    - views
+  theme:
+    - figurit
+id: testimonials_grid
+theme: figurit
+region: content
+weight: -8
+provider: null
+plugin: 'views_block:testimonials-grid'
+settings:
+  id: 'views_block:testimonials-grid'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /testimonials
+    negate: false
+    context_mapping: {  }

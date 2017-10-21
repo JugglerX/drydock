@@ -1,0 +1,39 @@
+uuid: ea683e10-200b-4fe6-a88c-7faa99acb8a0
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact
+    - options
+id: contact_message.field_business_size
+field_name: field_business_size
+entity_type: contact_message
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '1 Person'
+      label: '1 Person'
+    -
+      value: '1 - 5 Employees'
+      label: '1 - 5 Employees'
+    -
+      value: '5 - 10 Employees'
+      label: '5 - 10 Employees'
+    -
+      value: '10 - 30 Employees'
+      label: '10 - 30 Employees'
+    -
+      value: '30 - 100 Employees'
+      label: '30 - 100 Employees'
+    -
+      value: '100+ Employees'
+      label: '100+ Employees'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

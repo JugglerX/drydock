@@ -1,0 +1,14 @@
+.role-administrator {
+  .view {
+  }
+}
+
+.block {
+  > .container {
+    > .view {
+      > .contextual {
+        display: none;
+      }
+    }
+  }
+}

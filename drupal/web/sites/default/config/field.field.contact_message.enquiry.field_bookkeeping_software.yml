@@ -1,0 +1,21 @@
+uuid: 51c40c38-59a3-4a2c-9fdb-02cda5871db3
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.enquiry
+    - field.storage.contact_message.field_bookkeeping_software
+  module:
+    - options
+id: contact_message.enquiry.field_bookkeeping_software
+field_name: field_bookkeeping_software
+entity_type: contact_message
+bundle: enquiry
+label: 'Bookkeeping Software'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

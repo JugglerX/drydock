@@ -1,0 +1,23 @@
+{#
+/**
+ * @file
+ * Display Suite 2 row template.
+ *
+ */
+#}
+
+{% extends 'themes/custom/drydock/templates/ds/ds.html.twig' %}
+
+{% block child %}
+
+  {{ title_suffix.contextual_links }}
+
+  <{{ firstrow_wrapper }}{{ firstrow_attributes.addClass('group-firstrow') }}>
+    {{ firstrow }}
+  </{{ firstrow_wrapper }}>
+
+  <{{ secondrow_wrapper }}{{ secondrow_attributes.addClass('group-secondrow') }}>
+    {{ secondrow }}
+  </{{ secondrow_wrapper }}>
+
+{% endblock %}

@@ -1,0 +1,25 @@
+uuid: ca7f3438-6d37-4c4f-8a51-95986ef44d1c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - figurit
+id: content_front
+theme: figurit
+region: highlighted
+weight: -12
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Content Front'
+  provider: system
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

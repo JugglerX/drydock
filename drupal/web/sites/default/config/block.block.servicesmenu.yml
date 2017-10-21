@@ -1,0 +1,29 @@
+uuid: e852260b-08e1-44b0-882a-9fa412f457af
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.services-menu
+  module:
+    - system
+  theme:
+    - figurit
+id: servicesmenu
+theme: figurit
+region: sidebar_second
+weight: -12
+provider: null
+plugin: 'system_menu_block:services-menu'
+settings:
+  id: 'system_menu_block:services-menu'
+  label: Services
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility:
+  request_path:
+    id: request_path
+    pages: '/service/*'
+    negate: false
+    context_mapping: {  }

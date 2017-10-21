@@ -1,0 +1,31 @@
+uuid: deac9d04-a31e-40c8-bc27-80d7f17d2b5b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:homepage_hero:9fc590d2-7509-4b99-a35c-aab63aa2f8fb'
+  module:
+    - block_content
+    - system
+  theme:
+    - figurit
+id: hero_homepage
+theme: figurit
+region: hero
+weight: 0
+provider: null
+plugin: 'block_content:9fc590d2-7509-4b99-a35c-aab63aa2f8fb'
+settings:
+  id: 'block_content:9fc590d2-7509-4b99-a35c-aab63aa2f8fb'
+  label: 'Hero Homepage'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

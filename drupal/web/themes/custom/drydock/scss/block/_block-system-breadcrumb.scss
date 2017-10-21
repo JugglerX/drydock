@@ -1,0 +1,25 @@
+.block-id-breadcrumbs {
+  margin-top: 10px;
+  .breadcrumb {
+    background: #EAEAEA;
+    display: inline-block;
+    padding: 5px 5px 5px 5px;
+    ol {
+      li {
+        display: inline-block;
+        &:first-of-type {
+          padding-left: 0;
+        }
+      }
+      li + li {
+        &:before {
+          display: inline-block;
+          padding-right: 10px;
+          padding-left: 10px;
+          color: #868E96;
+          content: "/";
+        }
+      }
+    }
+  }
+}

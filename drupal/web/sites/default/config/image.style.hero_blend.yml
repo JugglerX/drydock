@@ -1,0 +1,23 @@
+uuid: 7f497ec0-d2ce-4168-b638-745d9a60a611
+langcode: en
+status: true
+dependencies: {  }
+name: hero_blend
+label: 'Hero Blend'
+effects:
+  bea2364d-ab62-4713-baa4-5bff439ddbfd:
+    uuid: bea2364d-ab62-4713-baa4-5bff439ddbfd
+    id: image_scale
+    weight: 1
+    data:
+      width: 2000
+      height: null
+      upscale: false
+  e6049853-aa74-4f20-b2d5-30e69bd9964a:
+    uuid: e6049853-aa74-4f20-b2d5-30e69bd9964a
+    id: image_crop
+    weight: 2
+    data:
+      width: 2000
+      height: 500
+      anchor: center-center

@@ -1,0 +1,20 @@
+hr {
+  clear: both;
+  height: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: solid #DDDDDD;
+  border-width: 1px 0 0;
+}
+hr.no-margin {
+  margin: 0;
+}
+hr.small-margin {
+  margin: 0;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+hr.margin-bottom {
+  margin: 0;
+  margin-bottom: 14px;
+}

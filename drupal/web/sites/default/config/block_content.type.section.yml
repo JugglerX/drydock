@@ -1,0 +1,8 @@
+uuid: 9f7b6950-7fdd-4404-9ff4-c025ab9e0267
+langcode: en
+status: true
+dependencies: {  }
+id: section
+label: Section
+revision: 0
+description: 'A fullwidth section with Heading, paragraph and a button'

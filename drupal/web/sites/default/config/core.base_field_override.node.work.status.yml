@@ -1,0 +1,22 @@
+uuid: 9d6fabca-5a8b-43d9-9584-2124e61b35f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.work
+id: node.work.status
+field_name: status
+entity_type: node
+bundle: work
+label: 'Publishing status'
+description: 'A boolean indicating the published state.'
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

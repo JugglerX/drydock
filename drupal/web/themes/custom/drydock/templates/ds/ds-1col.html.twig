@@ -1,0 +1,24 @@
+{#
+/**
+ * @file
+ * Display Suite 1 column template.
+ *
+ * Available variables:
+ * - ds_content_wrapper: wrapper around content
+ * - attributes: content region attributes
+ * - ds_content: content region
+ */
+#}
+
+{#
+/**
+ * <div id="node-1" class="node node-page node-teaser node-promoted entity-type-node ds-1col contextual-region">
+ */
+#}
+
+{% extends 'themes/custom/drydock/templates/ds/ds.html.twig' %}
+
+{% block child %}
+  {{ title_suffix.contextual_links }}
+  {{ ds_content }}
+{% endblock %}

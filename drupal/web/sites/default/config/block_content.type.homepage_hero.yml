@@ -1,0 +1,8 @@
+uuid: 87c1bdef-ecd0-4d03-967f-2d337a75533f
+langcode: en
+status: true
+dependencies: {  }
+id: homepage_hero
+label: 'Homepage Hero'
+revision: 0
+description: 'A hero block for the homepage. Includes a large fullwidth image and title/subtitle.'

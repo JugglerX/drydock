@@ -1,0 +1,31 @@
+{#
+/**
+ * @file
+ * Display Suite 2 column stacked template 75/25.
+ *
+ */
+#}
+
+{% extends 'themes/custom/drydock/templates/ds/ds.html.twig' %}
+
+{% block child %}
+
+  {{ title_suffix.contextual_links }}
+
+  <{{ header_wrapper }}{{ header_attributes.addClass('group-header') }}>
+    {{ header }}
+  </{{ header_wrapper }}>
+
+  <{{ left_wrapper }}{{ left_attributes.addClass('group-left') }}>
+    {{ left }}
+  </{{ left_wrapper }}>
+
+  <{{ right_wrapper }}{{ right_attributes.addClass('group-right') }}>
+    {{ right }}
+  </{{ right_wrapper }}>
+
+  <{{ footer_wrapper }}{{ footer_attributes.addClass('group-footer') }}>
+    {{ footer }}
+  </{{ footer_wrapper }}>
+
+{% endblock %}

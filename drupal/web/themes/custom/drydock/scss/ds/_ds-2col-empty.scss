@@ -1,0 +1,13 @@
+.ds-2col-empty {
+  .groups {
+    @include clearfix;
+    display: flex;
+    flex-direction: row;
+  }
+  .group-left {
+    flex: 2 0 0;
+  }
+  .group-right {
+    flex: 2 0 0;
+  }
+}

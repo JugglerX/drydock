@@ -1,0 +1,30 @@
+uuid: 3315bb24-8d52-4ddf-99bc-fbe14d38d5c9
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.team
+  module:
+    - system
+    - views
+  theme:
+    - figurit
+id: team_grid
+theme: figurit
+region: content
+weight: -6
+provider: null
+plugin: 'views_block:team-grid'
+settings:
+  id: 'views_block:team-grid'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /team
+    negate: false
+    context_mapping: {  }

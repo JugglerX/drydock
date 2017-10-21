@@ -1,0 +1,101 @@
+/*
+ * drydock Theme Variables
+ */
+$base-font-size: 15px;
+$base-line-height: 21px;
+$base-font-color: #333333;
+$custom-font-color: #333333;
+$base-font: 'Open+Sans', 'helvetica', 'arial';
+$custom-font: 'Lato', 'helvetica', 'arial';
+
+$primary-color: #3D58B1;
+$secondary-color: #8A94B6;
+
+$link-color: $primary-color;
+$link-color-hover: lighten($primary-color, 10%);
+
+$white: #FFFFFF;
+$black: #000000;
+$gray: #666666;
+$form-font-size: 15px;
+$form-line-height: 24px;
+$form-padding: 6px;
+$form-height: 36px;
+$button-font-size: $base-font-size;
+$button-font-family: $base-font;
+
+
+/*
+ * Foundation 6.4 Variables
+ */
+
+// 1. Global
+// ---------
+$global-width: 1200px;
+$global-text-direction: ltr;
+$global-flexbox: false;
+$global-left: if($global-text-direction == rtl, right, left);
+$global-right: if($global-text-direction == rtl, left, right);
+
+
+// 2. Breakpoints
+// --------------
+/*
+ * The Breakpoint Mixin - https://foundation.zurb.com/sites/docs/media-queries.html
+ *
+ * @include breakpoint();
+ *
+ * .element {
+ *    // Only affects medium screens and larger
+ *    @include breakpoint(medium) { }
+ *
+ *    // Only affects medium screens and smaller
+ *    @include breakpoint(medium down) { }
+ *
+ *    // Only affects medium screens, not small or large
+ *    @include breakpoint(medium only) { }
+ * }
+ *
+ */
+$breakpoints: (
+  tiny: 0,
+  small: 380px,
+  medium: 640px,
+  large: 1024px,
+  xlarge: 1280px,
+  xxlarge: 1440px,
+);
+$print-breakpoint: large;
+$breakpoint-classes: (tiny small medium large);
+
+
+// 3. The Grid
+// -----------
+/*
+ * Foundation Docs: https://foundation.zurb.com/sites/docs/grid.html
+ *
+ * @include grid-row();
+ * @include grid-column();
+ *
+ * .container {
+ *   @include grid-row() {
+ *     .main-content {
+ *       @include grid-column(8);
+ *     }
+ *     .sidebar {
+ *       @include grid-column(4);
+ *     }
+ *   }
+ * }
+ *
+ */
+$grid-row-width: $global-width;
+$grid-column-count: 12;
+$grid-column-gutter: (
+  tiny: 20px,
+  small: 20px,
+  medium: 30px,
+);
+$grid-column-align-edge: true;
+$grid-column-alias: 'columns';
+$block-grid-max: 8;

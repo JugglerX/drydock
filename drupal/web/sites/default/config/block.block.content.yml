@@ -1,0 +1,25 @@
+uuid: 2ddf6956-e537-4642-b36a-57906615dcf9
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - figurit
+id: content
+theme: figurit
+region: content
+weight: -10
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: Content
+  provider: system
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

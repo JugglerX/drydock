@@ -1,0 +1,39 @@
+.block-id-tabs {
+  @include clearfix;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  ul {
+    @include clearfix;
+    li {
+      float: left;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      a {
+        float: left;
+        padding: 11px 15px;
+        color: #000000;
+        //font-size: 13px;
+        font-weight: normal;
+        //line-height: 13px;
+        border-bottom: 2px solid #CCC;
+        &:hover {
+          cursor: pointer;
+          text-decoration: none;
+          //color: #FFFFFF;
+          //background: #000000;
+          //background-image: linear-gradient(rgba(255, 255, 255, 0.125) 20%, transparent 200%);
+        }
+        &.active,
+        &.is-active {
+          border-bottom: 2px solid $primary-color;
+          text-decoration: none;
+          color: #000000;
+          background: none;
+          //background: #000000;
+          //background-image: linear-gradient(rgba(255, 255, 255, 0.25) 20%, transparent 200%);
+        }
+      }
+    }
+  }
+}

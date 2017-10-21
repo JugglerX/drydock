@@ -1,0 +1,43 @@
+uuid: cc43275d-825a-4e36-aaf7-f2807db2fc5a
+langcode: en
+status: true
+dependencies:
+  module:
+    - image_effects
+name: l
+label: Logo
+effects:
+  1d016ea4-2add-4519-bc36-4564691011c8:
+    uuid: 1d016ea4-2add-4519-bc36-4564691011c8
+    id: image_scale
+    weight: -10
+    data:
+      width: 260
+      height: null
+      upscale: false
+  979b3590-a599-40a5-950c-49e31fdd5acd:
+    uuid: 979b3590-a599-40a5-950c-49e31fdd5acd
+    id: image_crop
+    weight: -8
+    data:
+      width: 290
+      height: 290
+      anchor: center-center
+  1d131872-6c8f-463b-b52c-c8b25ae6477b:
+    uuid: 1d131872-6c8f-463b-b52c-c8b25ae6477b
+    id: image_effects_set_canvas
+    weight: -9
+    data:
+      canvas_size: exact
+      exact:
+        width: '290'
+        height: '290'
+        placement: center-center
+        x_offset: 0
+        y_offset: 0
+      relative:
+        left: 0
+        right: 0
+        top: 0
+        bottom: 0
+      canvas_color: '#FFFFFFFF'

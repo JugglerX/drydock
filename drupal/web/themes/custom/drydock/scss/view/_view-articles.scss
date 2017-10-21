@@ -1,0 +1,54 @@
+.view.view-articles {
+  .view-header {
+    text-align: center;
+    h2 {
+      margin-top: 0;
+      margin-bottom: 8px;
+      font-size: 32px;
+      font-weight: 300;
+      font-family: $base-font;
+      line-height: 28px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 26px;
+      margin-bottom: 20px;
+    }
+  }
+  .view-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    @include breakpoint(small only) {
+      display: block;
+    }
+    .views-row {
+      flex-grow: 0;
+      flex-shrink: 0;
+      flex-basis: 24%;
+      margin-bottom: 20px;
+      @include breakpoint(small only) {
+        flex-basis: 100%;
+      }
+      @include breakpoint(medium only) {
+        flex-basis: 32%;
+      }
+      &:last-of-type {
+        @include breakpoint(small only) {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+.view.view-work.view-display-id-block-1 {
+  .views-content {
+    .views-row {
+      display: none;
+      &:nth-child(1) {
+
+      }
+    }
+  }
+}

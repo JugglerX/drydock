@@ -1,0 +1,87 @@
+ds_1col_fullwidth_hero_footer:
+  label: One column fullwidth hero footer
+  category: Display Suite
+  class: '\Drupal\ds\Plugin\DsLayout'
+  type: partial
+  template: ds/ds-1col-fullwidth-hero-footer
+  icon: ds/ds-1col-fullwidth-hero-footer.png
+  regions:
+    header:
+      label: Header (Fullwidth)
+    middle:
+      label: Middle Fixed
+    footer:
+      label: Footer (Fullwidth)
+
+ds_1col_hero:
+  label: One column layout + hero
+  category: Display Suite
+  class: '\Drupal\ds\Plugin\DsLayout'
+  type: partial
+  template: ds/ds-1col-hero
+  icon: ds/ds-1col-hero.png
+  regions:
+    hero:
+      label: Hero
+    middle:
+      label: Middle
+
+ds_2col_75_25:
+  label: Two column layout - 75/25
+  category: Display Suite
+  class: '\Drupal\ds\Plugin\DsLayout'
+  type: partial
+  path: templates/ds
+  template: ds/ds-2col-75-25
+  icon: ds-2col-75-25.png
+  regions:
+    left:
+      label: Left
+    right:
+      label: Right
+
+ds_2col_stacked_75_25:
+  label: Two column stacked layout - 75/25
+  category: Display Suite
+  class: '\Drupal\ds\Plugin\DsLayout'
+  type: partial
+  path: templates/ds
+  template: ds/ds-2col-stacked-75-25
+  icon: ds-2col-stacked-75-25.png
+  regions:
+    header:
+      label: Header
+    left:
+      label: Left
+    right:
+      label: Right
+    footer:
+      label: Footer
+
+ds_2col_empty:
+  label: Two column layout + empty
+  category: Display Suite
+  class: '\Drupal\ds\Plugin\DsLayout'
+  type: partial
+  path: templates/ds
+  template: ds/ds-2col-empty
+  icon: ds-2col-empty.png
+  regions:
+    left:
+      label: Left
+    right:
+      label: Right
+
+ds_2row:
+  label: Two row layout
+  category: Display Suite
+  class: '\Drupal\ds\Plugin\DsLayout'
+  type: partial
+  path: templates/ds
+  template: ds-2row
+  icon: ds-2row.png
+  regions:
+    firstrow:
+      label: First Row
+    secondrow:
+      label: Second Row

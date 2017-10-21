@@ -1,0 +1,9 @@
+.block-id-socialmedialinks {
+  @include grid-column(4);
+  @include breakpoint(medium only) {
+    @include grid-column(4);
+  }
+  @include breakpoint(small only) {
+    @include grid-column(12);
+  }
+}

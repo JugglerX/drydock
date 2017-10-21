@@ -1,0 +1,24 @@
+uuid: b67d38a0-c817-41f6-afd1-10f44c60a562
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.offices
+  module:
+    - views
+  theme:
+    - figurit
+id: offices_top
+theme: figurit
+region: top
+weight: 0
+provider: null
+plugin: 'views_block:offices-top'
+settings:
+  id: 'views_block:offices-top'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

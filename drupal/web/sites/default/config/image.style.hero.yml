@@ -1,0 +1,15 @@
+uuid: 93c61c4a-e6c7-4838-b53a-116ea2bbc4f2
+langcode: en
+status: true
+dependencies: {  }
+name: hero
+label: 'Hero (2000x500)'
+effects:
+  e7e8e515-e66e-41ca-b0cf-fa1514c406b1:
+    uuid: e7e8e515-e66e-41ca-b0cf-fa1514c406b1
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 2000
+      height: 500
+pipeline: test

@@ -1,0 +1,66 @@
+{#
+/**
+ * @file
+ * Display Suite 1 column template.
+ *
+ * Available variables:
+ * - ds_content_wrapper: wrapper around content
+ * - attributes: content region attributes
+ * - ds_content: content region
+ * - layout.template
+ * - node.nid.value
+ * - content['#view_mode']
+ * - content['#bundle']
+ * - content['#entity_type']
+ * - node.view_mode
+ */
+#}
+
+{% set contextual_region = (attributes.class[0] == 'contextual-region') %}
+{% set nid = node.nid.value ? 'node-' ~ node.nid.value : null %}
+
+{% set node_classes = [
+    'node',
+    content['#bundle'] ? 'node-' ~ content['#bundle']|clean_class,
+    content['#view_mode'] ? 'node-' ~ content['#view_mode']|clean_class,
+    node.isPromoted() ? 'node-promoted',
+    node.isSticky() ? 'node-sticky',
+    not node.isPublished() and content['#entity_type'] == "node" ? 'node-unpublished',
+    content['#entity_type'] ? 'entity-type-' ~ content['#entity_type']|clean_class,
+    layout.template ? layout.template,
+    contextual_region ? 'contextual-region',
+] %}
+
+{% set block_content_classes = [
+    'block-content',
+    content['#bundle'] ? 'block-content-' ~ content['#bundle']|clean_class,
+    content['#view_mode'] ? 'block-content-' ~ content['#view_mode']|clean_class,
+    content['#entity_type'] ? 'entity-type-' ~ content['#entity_type']|clean_class,
+    layout.template ? layout.template,
+    contextual_region ? 'contextual-region',
+] %}
+
+{% set remove_classes = [
+    contextual_region ? 'contextual-region',
+    'node--type-' ~ node.bundle|clean_class,
+    content['#bundle'] ? 'node-type-' ~ content['#bundle']|clean_class,
+    content['#view_mode'] ? 'node--view-mode-' ~ content['#view_mode']|clean_class,
+    'block-content',
+    content['#bundle'] ? 'block-content--type-' ~ content['#bundle']|clean_class,
+    content['#view_mode'] ? 'block-content--view-mode-' ~ content['#view_mode']|clean_class,
+] %}
+
+
+{% if content['#entity_type'] == "node"  %}
+    <{{ outer_wrapper }} id={{ nid }} {{ attributes.removeClass(remove_classes).addClass(node_classes) |without('role','about','typeof','content','data-history-node-id') }} >
+{% elseif content['#entity_type'] == "block_content" %}
+    <{{ outer_wrapper }} {{ attributes.removeClass(remove_classes).addClass(block_content_classes) |without('role','about','typeof','content','data-history-node-id') }} >
+{% else %}
+    <{{ outer_wrapper }} {{ attributes.removeClass(remove_classes).addClass(node_classes) |without('role','about','typeof','content','data-history-node-id') }} >
+{% endif %}
+
+    {% block child %}
+    {% endblock %}
+
+</{{ outer_wrapper }}>
+

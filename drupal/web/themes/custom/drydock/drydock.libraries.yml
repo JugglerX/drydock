@@ -1,0 +1,27 @@
+global-css:
+  css:
+    theme:
+      css/style.css: {}
+
+global-js:
+  js:
+    js/scripts.min.js: {}
+  dependencies:
+    - core/matchmedia
+    - core/jquery
+    - core/drupal
+    - core/jquery.once
+    - core/drupal.debounce
+    - core/collapse
+
+modernizr:
+  version: "1.0.x"
+  js:
+    /libraries/modernizr/modernizr-custom.js: {}
+
+detectizr:
+  version: "1.0.x"
+  js:
+    /libraries/detectizr/detectizr.min.js: {}
+  dependencies:
+      - drydock/modernizr

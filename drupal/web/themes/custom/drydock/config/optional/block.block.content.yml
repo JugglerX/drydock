@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - drydock
+id: content
+theme: drydock
+region: content
+weight: 5
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: Content
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,255 @@
+<?php
+
+/**
+ * @file
+ * Functions to support theming in the drydock theme.
+ */
+
+/**
+ * Implements hook_preprocess_html() for html.html.twig
+ */
+function drydock_preprocess_html(&$variables) {
+
+  // Role Classes
+  $account = \Drupal::currentUser();
+  $roles = $account->getRoles();
+  foreach ($roles as $role) {
+    $variables['attributes']['class'][] = 'role-' . $role;
+  }
+
+  // URL Path Classes
+  $path_unaliased = \Drupal::service('path.current')->getPath();
+  $path_aliased = \Drupal::service('path.alias_manager')->getAliasByPath($path_unaliased);
+  $path_aliased_array = explode('/', $path_aliased);
+
+  $path_classes_array = [];
+  $current_path = "path";
+
+  foreach ($path_aliased_array as $path_chunk) {
+    if ($path_chunk != "" || $path_chunk != null) {
+      $current_path = $current_path . '-' . strtolower($path_chunk);
+      $path_classes_array[] = $current_path;
+    }
+  }
+
+  $variables['path'] = implode(" ", $path_classes_array);
+
+  if (!empty($path_aliased_array[1])) {
+    $variables['section'] = 'section-' .$path_aliased_array[1];
+  }
+}
+
+/**
+ * Implements hook_preprocess_page() for page.html.twig.
+ */
+function drydock_preprocess_page(array &$variables) {
+
+  // URL Path Classes
+  //  $path_unaliased = \Drupal::service('path.current')->getPath();
+  //  $path_aliased = \Drupal::service('path.alias_manager')->getAliasByPath($path_unaliased);
+  //  $path_aliased_array = explode('/', $path_aliased);
+  //
+  //  $path_classes_array = [];
+  //  $current_path = "page";
+  //
+  //  foreach ($path_aliased_array as $path_chunk) {
+  //    if ($path_chunk != "" || $path_chunk != null) {
+  //      $current_path = $current_path . '-' . strtolower($path_chunk);
+  //      $variables['attributes']['class'][] = $current_path;
+  //    }
+  //  }
+}
+
+/**
+ * Implements hook_theme_suggestions_page_alter().
+ */
+function drydock_theme_suggestions_page_alter(array &$suggestions, array $variables) {
+  // Add content type suggestions.
+  if ($node = \Drupal::request()->attributes->get('node')) {
+    array_splice($suggestions, 1, 0, 'page__node__' . $node->getType());
+  }
+
+  // Page Template Suggestions
+  // Converts existing suggestions array to lowercase
+  // Merges into existing suggestions array
+  $path_unaliased = \Drupal::service('path.current')->getPath();
+  $path_aliased = \Drupal::service('path.alias_manager')->getAliasByPath($path_unaliased);
+  $path_aliased_array = explode('/', $path_aliased);
+
+  $current_path = "page";
+
+  foreach ($suggestions as $key => $suggestion) {
+    $suggestions[$key] = strtolower($suggestion);
+  }
+
+  foreach ($path_aliased_array as $path_chunk) {
+    if ($path_chunk != "" || $path_chunk != null) {
+      $current_path = $current_path . '__' . strtolower($path_chunk);
+      if (!in_array($current_path, $suggestions)) {
+        $suggestions[] = $current_path;
+      }
+    }
+  }
+}
+
+/**
+ * Implements hook_preprocess_block() for block.html.twig
+ */
+function drydock_preprocess_block(array &$variables) {
+  /*
+   * Get Theme Values
+   */
+  $theme = \Drupal::theme()->getActiveTheme();
+  $theme_name = $theme->getName();
+  $theme_name_length = strlen($theme_name); // 6
+
+  /*
+   * Create Block ID
+   */
+  $block_id = $variables['elements']['#id'];
+  $block = \Drupal\block\Entity\Block::load($block_id);
+  $does_block_include_theme_name = substr($block_id, 0, $theme_name_length) === $theme_name;
+  $does_block_include_theme_name ? $block_id_without_theme = substr($block_id, $theme_name_length + 1) : $block_id_without_theme = $block_id;
+
+  /*
+   * Variables For Twig
+   */
+  $variables['machine_name'] = $variables['elements']['#id'];
+  $variables['machine_name_without_theme_name'] = $block_id_without_theme;
+  $variables['base_plugin_id'] = $variables['elements']['#base_plugin_id'];
+  $variables['derivative_plugin_id'] = $variables['elements']['#derivative_plugin_id'];
+  $variables['region'] = $block->getRegion();
+
+//  if (isset($variables['elements']['content']['#block_content'])) {
+//    $variables['custom_block_content_type'] = $variables['elements']['content']['#block_content']->bundle();
+//  }
+
+
+
+
+  /*
+   * // Add a clearfix class to system branding blocks.
+   *
+   * if ($variables['plugin_id'] == 'system_branding_block') {
+   *    $variables['attributes']['class'][] = 'clearfix';
+   * }
+   *
+   */
+}
+
+/**
+ * Implements hook_theme_suggestions_block_alter().
+ */
+function drydock_theme_suggestions_block_alter(array &$suggestions, array $variables) {
+
+  $block_id = $variables['elements']['#id'];
+  $block = \Drupal\block\Entity\Block::load($block_id);
+
+  // Add region as suggestion
+  $region = $block->getRegion();
+  $suggestions[] = 'block__region-' . $region;
+
+  // Add classes based on the block id
+  switch ($block_id) {
+    // block id/machine name
+    case 'account_menu':
+      $suggestions[] = 'block__my_account_menu';
+      break;
+  }
+
+  $path_unaliased = \Drupal::service('path.current')->getPath();
+  $path_aliased = \Drupal::service('path.alias_manager')->getAliasByPath($path_unaliased);
+  $path_aliased_array = explode('/', $path_aliased);
+
+  $current_path = "";
+
+  foreach ($path_aliased_array as $path_chunk) {
+    if ($path_chunk != "" || $path_chunk != null) {
+      $current_path = $current_path . '_' . strtolower($path_chunk);
+      if (!in_array($current_path, $suggestions)) {
+        $suggestions[] = 'block__region-' . $region . '__page' . $current_path;
+      }
+    }
+  }
+
+  $current_path = "";
+
+  foreach ($path_aliased_array as $path_chunk) {
+    if ($path_chunk != "" || $path_chunk != null) {
+      $current_path = $current_path . '_' . strtolower($path_chunk);
+      if (!in_array('page', $suggestions)) {
+        $suggestions[] = 'block__' . 'page' . $current_path;
+      }
+    }
+  }
+
+  $current_path = "";
+
+  foreach ($path_aliased_array as $path_chunk) {
+    if ($path_chunk != "" || $path_chunk != null) {
+      $current_path = $current_path . '_' . strtolower($path_chunk);
+      if (!in_array('page', $suggestions)) {
+        $suggestions[] = 'block__' . 'page' . $current_path . '__' . $block_id;
+      }
+    }
+  }
+}
+
+/**
+ * Implements hook_preprocess_node() for node.html.twig.
+ */
+function drydock_preprocess_node(array &$variables) {
+  $variables['nid'] = $variables['elements']['#node']->id();
+  $variables['node_id'] = 'node-id-' . $variables['elements']['#node']->id();
+}
+
+/**
+ * Implements hook_preprocess_node() for node.html.twig.
+ */
+function drydock_preprocess_ds(array &$variables) {
+  $variables['nid'] = $variables['elements']['#node']->id();
+  $variables['node_id'] = 'node-id-' . $variables['elements']['#node']->id();
+}
+
+/**
+ * Implements hook_preprocess_node() for node.html.twig.
+ */
+function drydock_preprocess_layout(array &$variables) {
+  $variables['nid'] = $variables['elements']['#node']->id();
+  $variables['node_id'] = 'node-id-' . $variables['elements']['#node']->id();
+}
+
+function drydock_ds_classes_alter(&$classes, $name) {
+  if ('ds_classes_regions' === $name) {
+    $classes['css-class-name'] = t('Custom Styling');
+  }
+}
+
+function drydock_ds_pre_render_alter(&$layout_render_array, $context, &$vars) {
+  $layout_render_array['left'][] = array(
+      '#markup' => 'cool!',
+      '#weight' => 20,
+  );
+  $vars['attributes_array']['class'][] = 'custom';
+}
+
+/**
+ * Implements hook_theme_suggestions_node_alter().
+ */
+function drydock_theme_suggestions_node_alter(array &$suggestions, array $variables) {
+}
+
+/**
+ * Implements hook_theme_suggestions_node_alter().
+ */
+function drydock_theme_suggestions_ds_alter(array &$suggestions, array $variables) {
+}
+
+/**
+ * Implements hook_theme_suggestions_layout_alter().
+ * Allows to alter Display Suite
+ */
+function drydock_theme_suggestions_layout_alter(array &$suggestions, array $variables) {
+  array_unshift($suggestions, "ds");
+
+}

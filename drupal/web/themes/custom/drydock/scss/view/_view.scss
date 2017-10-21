@@ -1,0 +1,53 @@
+.view {
+  position: relative;
+  .view-header {
+    text-align: center;
+    margin-bottom: 40px;
+    h2 {
+      color: #333333;
+      margin-top: 0;
+      margin-bottom: 0;
+      font-size: 32px;
+      font-weight: 300;
+      font-family: $base-font;
+      line-height: 36px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 26px;
+      margin-bottom: 20px;
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+    h2 + p {
+      margin-bottom: 10px;
+    }
+  }
+  .view-content {
+    .views-row {
+      margin-bottom: 15px;
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+  }
+  .view-content {
+    .views-row {
+      &:last-of-type {
+        @include breakpoint(small only) {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+  .view-empty {
+    ul.links {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      li {
+
+      }
+    }
+  }
+}

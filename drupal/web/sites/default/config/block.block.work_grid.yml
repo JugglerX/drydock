@@ -1,0 +1,30 @@
+uuid: 5824296d-c138-4048-9f9d-8b1e55da93ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.work
+  module:
+    - system
+    - views
+  theme:
+    - figurit
+id: work_grid
+theme: figurit
+region: content
+weight: -7
+provider: null
+plugin: 'views_block:work-grid'
+settings:
+  id: 'views_block:work-grid'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /work
+    negate: false
+    context_mapping: {  }

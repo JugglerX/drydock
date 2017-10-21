@@ -1,0 +1,27 @@
+{#
+/**
+ * @file
+ * Display Suite 2 column + empty template.
+ *
+ */
+#}
+
+{% extends 'themes/custom/drydock/templates/ds/ds.html.twig' %}
+
+{% block child %}
+
+{{ title_suffix.contextual_links }}
+
+  {% if left|render %}
+  <{{ left_wrapper }}{{ left_attributes.addClass('group-left') }}>
+    {{ left }}
+  </{{ left_wrapper }}>
+  {% endif %}
+
+  {% if right|render %}
+    <{{ right_wrapper }}{{ right_attributes.addClass('group-right') }}>
+      {{ right }}
+    </{{ right_wrapper }}>
+  {% endif %}
+
+{% endblock %}

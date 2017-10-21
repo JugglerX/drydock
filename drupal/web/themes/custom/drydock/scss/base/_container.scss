@@ -1,0 +1,8 @@
+@mixin container {
+  width: $container-width;
+  margin: 0 auto;
+}
+
+.container {
+  @include container;
+}

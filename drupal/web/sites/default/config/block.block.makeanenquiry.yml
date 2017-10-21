@@ -1,0 +1,39 @@
+uuid: 187ac163-0ea1-4e62-8262-adc8bf95c10f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:button:12308d04-4334-4837-bcf6-6917a437f6ca'
+  module:
+    - block_content
+    - ctools
+    - system
+  theme:
+    - figurit
+id: makeanenquiry
+theme: figurit
+region: sidebar_second
+weight: -11
+provider: null
+plugin: 'block_content:12308d04-4334-4837-bcf6-6917a437f6ca'
+settings:
+  id: 'block_content:12308d04-4334-4837-bcf6-6917a437f6ca'
+  label: 'Make An Enquiry'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      service: service
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: '/service/*'
+    negate: false
+    context_mapping: {  }

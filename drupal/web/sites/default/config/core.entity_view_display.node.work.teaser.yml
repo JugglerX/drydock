@@ -1,0 +1,81 @@
+uuid: 1910827b-a5a0-45da-b54c-a6a06597281b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.work.body
+    - field.field.node.work.field_image
+    - image.style.large
+    - node.type.work
+  module:
+    - ds
+    - image
+    - smart_trim
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: ds_2row
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          firstrow: div
+          secondrow: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+    regions:
+      firstrow:
+        - field_image
+      secondrow:
+        - node_title
+        - body
+    fields:
+      node_title:
+        plugin_id: node_title
+        weight: 1
+        label: hidden
+        formatter: default
+        settings:
+          link: true
+          wrapper: h2
+          class: ''
+          exclude_node_title: '1'
+id: node.work.teaser
+targetEntityType: node
+bundle: work
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: smart_trim
+    weight: 2
+    settings:
+      trim_length: '140'
+      trim_type: chars
+      trim_suffix: ...
+      more_link: '0'
+      more_text: More
+      summary_handler: trim
+      trim_options:
+        text: 0
+      more_class: more-link
+    third_party_settings: {  }
+    region: secondrow
+  field_image:
+    type: image
+    weight: 0
+    region: firstrow
+    label: hidden
+    settings:
+      image_style: large
+      image_link: content
+    third_party_settings: {  }
+hidden:
+  links: true

@@ -1,0 +1,25 @@
+nid_list:
+  - 2
+  - 5
+translation_sync: true
+search: false
+_core:
+  default_config_hash: tFcyNjovmdPA1ZVm7j2Iymt809j-r2F5uSDJAOI_QV8
+content_types:
+  article: none
+  certification: none
+  contact_details: none
+  page: user
+  service: user
+  testimonial: none
+content_type_modes:
+  article: {  }
+  certification: {  }
+  contact_details: {  }
+  page:
+    - full
+    - hero
+  service:
+    - full
+    - hero
+  testimonial: {  }
